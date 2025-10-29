@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://cjwe48u3x8ld"]
+
+[ext_resource type="Script" uid="uid://bvxowc5rxq70" path="res://Arm/arm.gd" id="1_itn4j"]
+[ext_resource type="Texture2D" uid="uid://ml641wvbq5tj" path="res://Arm/_2.png" id="2_1qk11"]
+[ext_resource type="Texture2D" uid="uid://ceghenepqq042" path="res://Arm/roboticarm_3.png" id="3_jurs1"]
+[ext_resource type="Texture2D" uid="uid://h12ubmm4d0hu" path="res://Arm/roboticarm_1.png" id="4_gg4g4"]
+
+[node name="arm" type="Node2D"]
+position = Vector2(116, 71)
+script = ExtResource("1_itn4j")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(13.000008, 2.3841858e-07)
+rotation = -4.7107453
+texture = ExtResource("4_gg4g4")
+
+[node name="joint1" type="Node2D" parent="."]
+position = Vector2(26, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="joint1"]
+position = Vector2(17, 0)
+rotation = 7.853982
+texture = ExtResource("2_1qk11")
+
+[node name="joint2" type="Node2D" parent="joint1"]
+position = Vector2(35, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="joint1/joint2"]
+position = Vector2(11, 0)
+rotation = 1.5707964
+texture = ExtResource("3_jurs1")
+
+[node name="hand" type="Node2D" parent="joint1/joint2"]
+position = Vector2(16, 0)
