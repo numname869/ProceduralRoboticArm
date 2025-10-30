@@ -1,13 +1,13 @@
 [gd_scene load_steps=5 format=3 uid="uid://cjwe48u3x8ld"]
 
-[ext_resource type="Script" uid="uid://bvxowc5rxq70" path="res://Arm/arm.gd" id="1_itn4j"]
-[ext_resource type="Texture2D" uid="uid://ml641wvbq5tj" path="res://Arm/_2.png" id="2_1qk11"]
-[ext_resource type="Texture2D" uid="uid://ceghenepqq042" path="res://Arm/roboticarm_3.png" id="3_jurs1"]
-[ext_resource type="Texture2D" uid="uid://h12ubmm4d0hu" path="res://Arm/roboticarm_1.png" id="4_gg4g4"]
+[ext_resource type="Script" uid="uid://be8d5bkrom3cp" path="res://Arm/Arm.cs" id="1_rf6la"]
+[ext_resource type="Texture2D" uid="uid://ml641wvbq5tj" path="res://Arm/Assets/_2.png" id="2_1qk11"]
+[ext_resource type="Texture2D" uid="uid://ceghenepqq042" path="res://Arm/Assets/roboticarm_3.png" id="3_jurs1"]
+[ext_resource type="Texture2D" uid="uid://h12ubmm4d0hu" path="res://Arm/Assets/roboticarm_1.png" id="4_gg4g4"]
 
 [node name="arm" type="Node2D"]
-position = Vector2(116, 71)
-script = ExtResource("1_itn4j")
+position = Vector2(-1, -7)
+script = ExtResource("1_rf6la")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(13.000008, 2.3841858e-07)

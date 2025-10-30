@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceghenepqq042"
-path="res://.godot/imported/roboticarm_3.png-ca1c043c633b9a565ed7fa50629f7f62.ctex"
+uid="uid://h12ubmm4d0hu"
+path="res://.godot/imported/roboticarm_1.png-6fa49074eeb6b3510db33867fafe68cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Arm/roboticarm_3.png"
-dest_files=["res://.godot/imported/roboticarm_3.png-ca1c043c633b9a565ed7fa50629f7f62.ctex"]
+source_file="res://Arm/Assets/roboticarm_1.png"
+dest_files=["res://.godot/imported/roboticarm_1.png-6fa49074eeb6b3510db33867fafe68cd.ctex"]
 
 [params]
 
