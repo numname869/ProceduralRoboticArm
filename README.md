@@ -26,10 +26,9 @@ The project includes two script versions:
 4. Open the scene `Arm.tscn`, which has the following hierarchy:
 
 Arm (Node2D)
-└─ joint1 (Node2D)
-└─ joint2 (Node2D)
-└─ hand (Node2D / Sprite)
-
+joint1 (Node2D)
+joint2 (Node2D)
+hand (Node2D / Sprite)
 
 5. Attach the script to the `Arm` node:
    - `arm.gd` for GDScript
